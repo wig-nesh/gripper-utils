@@ -1,0 +1,7 @@
+Metadata-Version: 2.4
+Name: gripper-utils
+Version: 0.1.0
+Summary: Utilities for Open3D and Trimesh with automatic backend handling
+Author: Your Name
+Requires-Dist: open3d
+Requires-Dist: trimesh

@@ -1,0 +1,16 @@
+[project]
+name = "gripper-utils"
+version = "0.1.0"
+description = "Utilities for Open3D and Trimesh with automatic backend handling"
+authors = [{name = "Your Name"}]
+dependencies = [
+    "open3d",
+    "trimesh"
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
