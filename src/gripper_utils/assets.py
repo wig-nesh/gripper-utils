@@ -2,7 +2,7 @@ import os
 import urllib.request
 
 GRIPPER_URL = (
-    "https://raw.githubusercontent.com/wignesh/gripper-utils/main/assets/gripper.obj"
+    "https://raw.githubusercontent.com/wig-nesh/gripper-utils/main/assets/gripper.obj"
 )
 
 

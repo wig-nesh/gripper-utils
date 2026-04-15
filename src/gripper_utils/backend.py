@@ -48,6 +48,8 @@ def transform_points(points, transform):
             device=points_conv.device,
         )
         points_h = xp.cat([points_conv, ones], dim=1)
+        if points_h.dtype != transform_conv.dtype:
+            points_h = points_h.to(transform_conv.dtype)
     else:
         ones = xp.ones((points_conv.shape[0], 1), dtype=points_conv.dtype)
         points_h = xp.concatenate([points_conv, ones], axis=1)
